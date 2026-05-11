@@ -1,10 +1,22 @@
+"""
+
+Creates a graph that shows Brownian motion aka
+shows how a person's coordinates will look if they
+walk in a random direction n steps
+
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 import random
-n = 100#number of steps
+
+
+n = 1000 #number of steps
 x = np.zeros(100)
 y = np.zeros(100)
 temp = 0
+
+
 plt.figure(0)
 
 for i in range(n):
